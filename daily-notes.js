@@ -39,3 +39,7 @@ console.log(notes)
 for (const note of notes) {
     console.log(note.subject)
 }
+
+for (const note of notes) {
+    console.log(`On ${note.date} I spent ${note.timeSpent}hr/s studying ${note.subject} and I felt ${note.feeling} about it.`)
+}
