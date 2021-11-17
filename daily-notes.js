@@ -23,3 +23,19 @@ const notes = [
 ]
 
 console.log(notes)
+
+const todaysNote = {
+    id: 4,
+    subject: "More Javascript",
+    date: "11/17/21",
+    feeling: "OK",
+    timeSpent: 2, 
+}
+
+notes.push(todaysNote)
+
+console.log(notes)
+
+for (const note of notes) {
+    console.log(note.subject)
+}
